@@ -28,3 +28,26 @@
 // const hello = `My name is ${name} and age is ${age}`;
 // console.log(hello);
 
+// Property & Methods
+// const hello='Hello';
+// console.log(hello.length);
+// console.log(hello)
+// console.log(hello.toUpperCase())
+// console.log(hello.substring(0, 5).toUpperCase());
+// console.log(hello.split(''))
+
+// Array - Variable
+const number = new Array(1,2,3,4,5);
+console.log(number);
+
+const fruits = ['name','add',12,true]; //Commenly used
+console.log(fruits);
+console.log(fruits[1]);
+fruits[4] = 'New';
+console.log(fruits);
+fruits.push('pushnew');
+console.log(fruits);
+fruits.unshift('sdd');
+console.log(fruits);
+fruits.pop()
+console.log(Array.isArray(fruits))
