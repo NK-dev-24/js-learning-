@@ -43,3 +43,36 @@
 // }
 
 //loopling Statement - For, While, do While, for of 
+// While loop
+// let i=1;
+// while(i<=5){
+//   console.log('Iteration number' + i)
+//   i++;
+// }
+
+//do while
+// let i = 1
+// do{
+//   console.log('Iteration number' +i)
+//   i++
+// }while (i<=5)
+
+// for of loop - used for itrating over collection of item like array
+// const numArray = [1,2,3,4,5]
+// for (const num of numArray){
+//   console.log('Itrated no.' + num)
+// }
+
+//Function 
+// function fullName (firstName, LastName){ // here firstName, lastName are parameter
+//   return firstName + LastName
+// }
+// const name = fullName('Naru ', 'chan') // here the same firstName, lastName is argument 
+// console.log(name)
+
+//arrow function
+// const arrowName = (firstName,LastName) => (firstName + LastName)
+// const name = arrowName('Nani', ' San')
+// console.log(name)
+
+// //scope - let, Const 
