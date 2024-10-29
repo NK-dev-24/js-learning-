@@ -70,41 +70,39 @@
 
 
 //array with objects
-const todos = [
-  {
-    id:1,
-    text:'Pick the ball',
-    isCompleted:false
-  },
-  {
-    id:2,
-    text:'Meeting today',
-    isCompleted:true
-  },
-  {
-    id:3,
-    text:'complete the course',
-    isCompleted:true
-  }
-]
-console.log(todos[1].text);
+// const todos = [
+//   {
+//     id:1,
+//     text:'Pick the ball',
+//     isCompleted:false
+//   },
+//   {
+//     id:2,
+//     text:'Meeting today',
+//     isCompleted:true
+//   },
+//   {
+//     id:3,
+//     text:'complete the course',
+//     isCompleted:true
+//   }
+// ]
+// console.log(todos[1].text);
 
-//method 1
-for (i=0; i<todos.length; i++){
-  console.log(todos[i].text);
-}
+// //method 1
+// for (i=0; i<todos.length; i++){
+//   console.log(todos[i].text);
+// }
 
-//method 2
-for(let todo of todos){
-  console.log(todo.text);
-}
+// //method 2
+// for(let todo of todos){
+//   console.log(todo.text);
+// }
 
 //method 3
 //foreach, map, filter
 //foreach
-todos.forEach(function(todos)){
-  console.log
-}
+
 
 
 //js to json
