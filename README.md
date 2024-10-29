@@ -10,3 +10,7 @@ Concepts: <br>
 ### Day 1: [JS Crash course](https://youtu.be/hdI2bqOjy3c?si=UpicSrADftvvCev3&t=1803) till 30:03 
 
 #### Key: Variables & Datatype, Array.
+
+### Day 2: [JS Crash course](https://youtu.be/hdI2bqOjy3c?si=Lv0Lnx9LYUUfrHCs&t=2599) till 43:19
+
+#### Key: Loops, Object inside object, Array Detailed concepts.
