@@ -102,8 +102,28 @@
 //method 3
 //foreach, map, filter
 //foreach
+// todos.forEach(function(todo) {
+//   console.log(todo.text);
+// });
+//map - will return array
+// const todoText = todos.map(function(todo){
+//   return todo.text
+// });
+// console.log(todoText)
 
+//filter 
+// const todoCompleted =  todos.filter(function(todo){
+//   return todo.isCompleted === true;
+// });
+// console.log(todoCompleted)
 
+// combain multiple things
+// const todoCompleted =  todos.filter(function(todo){
+//   return todo.isCompleted === true;
+// }).map(function(todo) {
+//   return todo.text; 
+// });
+// console.log(todoCompleted)
 
 //js to json
 // const todoJSON = JSON.stringify(todos);
@@ -120,3 +140,6 @@
 //   console.log(j);
 //   j++;
 // }
+
+
+//condition 

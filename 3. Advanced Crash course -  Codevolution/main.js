@@ -1,0 +1,1 @@
+// Scope - Block, function, Global
