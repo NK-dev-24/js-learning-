@@ -141,5 +141,34 @@
 //   j++;
 // }
 
+// constructor function 
+// function Person(firstName, lastName, dateOfBirth){
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.dateOfBirth = new Date(dateOfBirth);
+//   this.getfullname = function(){
+//     return `$(this.firstName) $(this.lastName)`;
+//   }
+// } 
 
-//condition 
+// //prototype
+// Person.prototype.getBirthYear = function() {
+//   return this.dateOfBirth.getFullYear();
+// }
+
+//classes - ES6 Prettier Syntactical - Alternate to prototype
+class Person{
+  constructor(firstName, lastName, dateOfBirth){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dateOfBirth = new Date(dateOfBirth);
+  }
+  getBirthYear =  function(){
+    return this.dateOfBirth.getFullYear();
+  }
+}
+
+const Person1 = new Person('Narni', 'Kuru', 26-2-1091);
+
+console.log(Person1.getBirthYear());
+console.log(Person1)
