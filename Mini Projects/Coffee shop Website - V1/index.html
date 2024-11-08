@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Bill Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Welcome To Coffee Shop</h1>
+    <div class="main">
+      <div class="menu">
+        <h2>Todays Menu</h2>
+        <div class="card">
+          <div class="item">
+            <h3>Item</h3>
+            <p>Coffee</p>
+            <p>Tea</p>
+            <p>Vada</p>
+          </div>
+          <div class="item">
+            <h3>Price</h3>
+            <p>₹10</p>
+            <p>₹10</p>
+            <p>₹10</p>
+          </div>
+          <div class="btn">
+            <h3>Add</h3>
+            <input class="Input-style" id="cof-count" type="number" min="0" />
+            <input id="tea-count" class="Input-style" type="number" min="0" />
+            <input id="vada-count" class="Input-style" type="number" min="0" />
+          </div>
+        </div>
+        <button id="place-Order" class="Input-style">
+          Place Order
+        </button>
+      </div>
+      <div class="bill">
+        <h2>Your Bill</h2>
+        <p id="js-bill"></p>
+      </div>
+    </div>
+    <script src="bill.js"></script>
+  </body>
+</html>

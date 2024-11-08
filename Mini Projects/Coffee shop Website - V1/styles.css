@@ -1,0 +1,77 @@
+
+
+body{
+	text-align: center;
+	background-color: burlywood;
+	font-family: 'Poppins';font-size: 22px;
+
+}
+
+h1{
+	color: rgb(107, 59, 33);
+	border: solid 1px ;
+	border-radius: 5px;
+}
+
+.main{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.menu{
+	width:500px;
+}
+
+.card{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 12px;
+	padding: 12px;
+	background-color: rgb(199, 153, 92);
+	font-size: large;
+	font-weight: 700px;
+}
+
+.btn{
+	display: flex;
+	flex-direction: column;	
+}
+
+.Input-style{
+	background-color: rgb(254, 220, 158);
+	border: 0px;
+	border-radius: 4px;
+	margin: 6px 5px;	
+	padding: 6px 12px;
+}
+.Input-style:hover{
+	background-color: rgb(226, 169, 64);
+	border: 2px solid;
+	font-weight: 600;
+}
+
+button.Input-style{
+	margin-top: 30px;
+	font-size: large;
+}
+
+.bill{
+	width:500px;
+	margin-left: 50px;
+}
+
+#js-bill{
+	margin-top: 50px;
+	background-color: rgb(199, 153, 92);
+	border-radius: 12px;
+	padding: 12px;
+	font-size: medium;
+	display: flex;
+	text-align: justify;
+	justify-content:center;
+	font-weight: 700px;
+	color: rgb(10, 10, 98);	
+}
+
