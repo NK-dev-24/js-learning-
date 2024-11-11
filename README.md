@@ -1,6 +1,11 @@
 # My Java Script learning track repo
 A repo dedicated for storing &amp; Collecting my code during the process of learning JS 
 
+## 3. Callbacks, Promises, Async Await | JavaScript Fetch API Explained [Completed]: [YT Video](https://youtu.be/VmQ6dHvnKIM?si=5YlQz2Sj4kAET7qu)
+### Day 7:
+#### Key: callbacks, Promise, Thenables, Asycn/Await, Fetch API
+
+------
 ### Day5:
 Mini Project: Bill on Console <br>
 Key: Array, Loop, Function <br>
