@@ -53,3 +53,7 @@ Key: Array, Loop, Function <br>
 ### Day 7:
 #### Key: callbacks, Promise, Thenables, Asycn/Await, Fetch API
 
+------
+## React Router V6 Tutorial - Routes, Redirecting, UseNavigate, UseParams...[Completed] :[YT Video](https://youtu.be/UjHT_NKR_gU?si=18saFLOtdyzBKpSr), [YT Video](https://youtu.be/ehvS1Hp90KU?si=msf4YQQW4nnE66Qr) 
+### Day 12
+Key: React Router -> Router, Routes, Route, Link, UsePrames, UseNavigate, (Nav Bar, Pages)
